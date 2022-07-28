@@ -30,10 +30,8 @@ function App() {
   return (
     <div className="App">
       <div>
-        <a href="#">
           <FontAwesomeIcon icon={faCode} className="logo" />
-          <FontAwesomeIcon icon={faLaptopCode} className="logo" />
-        </a>
+          <FontAwesomeIcon icon={faLaptopCode} className="logo" /> 
       </div>
       <h1>Programacion Web: Esentials</h1>
       <div className="cards-container">
