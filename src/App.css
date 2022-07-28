@@ -31,17 +31,16 @@
   animation-duration: 3s;
 }
 .cards-container {
-  width: 100%;
   padding: 1rem;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   row-gap: 1rem;
 }
 
 .card {
-  width: 30%;
+
   height: 6rem;
   display: flex;
   flex-direction: column;

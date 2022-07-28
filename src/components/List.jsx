@@ -6,7 +6,7 @@ const List = (props) => {
   return (
     <>
     <div className='list'>
-         {items.map(listItem =><Item name={listItem}></Item>)}
+         {items.map((listItem, index) =><Item name={listItem}></Item>)}
     </div>
     </>
   )

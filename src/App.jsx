@@ -35,9 +35,7 @@ function App() {
       </div>
       <h1>Programacion Web: Esentials</h1>
       <div className="cards-container">
-
-      {modules.map((module)=>{return  <Module name={module.name} title={module.title} imgPath={module.imgPath}></Module>})}
-
+      {modules.map((module, key)=>{return  <Module key={key} name={module.name} title={module.title} imgPath={module.imgPath}></Module>})}
       </div>
       <p className="read-the-docs">{ending}</p>
       <List items={['Introduccion al desarrollo Web','Pagina estatica de texto', 'Lista de tareas y Tabla de rendimiento', 'Periodico online basico', 'Formulario de contacto']}></List>
