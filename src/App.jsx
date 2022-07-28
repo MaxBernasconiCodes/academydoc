@@ -43,7 +43,7 @@ function App() {
       </div>
       <p className="read-the-docs">{ending}</p>
       <List items={['Introduccion al desarrollo Web','Pagina estatica de texto', 'Lista de tareas y Tabla de rendimiento', 'Periodico online basico', 'Formulario de contacto']}></List>
-      <List items={['Introduccion a CSS', 'Selectores y Reglas', 'Dando estilo a nuestro CV', 'Orden y posicion de elmentos ', 'Pseudo Clases y elementos','Filtros y Transformaciones ', 'FlexBox', 'Grid', 'Diseño Responsivo', 'Introduccion a Bootstrap', 'introduccion a Javascript']}></List>
+      <List items={['Introduccion a CSS', 'Selectores y Reglas', 'Dando estilo a nuestro CV', 'Orden y posicion de elmentos ', 'Pseudo Clases y elementos','Filtros y Transformaciones ', 'FlexBox', 'Grid', 'Diseño Responsivo', 'Introduccion a Bootstrap', 'Introduccion a Javascript']}></List>
     </div>
   );
 }
