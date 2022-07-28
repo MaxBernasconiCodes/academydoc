@@ -3,7 +3,7 @@ import { faCode, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 import List from "./components/List";
 import { useState } from "react";
-import Module from "./components/module";
+import Module from "./components/Module";
 
 function App() {
   let ending = ["Comenzamos dentro de poco, estén atentos ;)"];
